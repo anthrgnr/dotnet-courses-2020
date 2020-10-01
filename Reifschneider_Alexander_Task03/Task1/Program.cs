@@ -10,7 +10,7 @@ namespace Task1
             int[] array = new int[10];
             for (int i = 0; i < 10; i++)
             {
-                array[i] = random.Next(1,100);
+                array[i] = random.Next(1, 100);
             }
             Console.WriteLine($"The original array is ");
             for (int i = 0; i < 10; i++)
@@ -33,7 +33,7 @@ namespace Task1
         public static int MaxValue(int[] array)
         {
             int max = array[0];
-            for (int i = 0; i < array.Length; ++i)
+            for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] > max)
                 {
@@ -46,7 +46,7 @@ namespace Task1
         public static int MinValue(int[] array)
         {
             int min = array[0];
-            for (int i = 0; i < array.Length; ++i)
+            for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] < min)
                 {
