@@ -11,7 +11,7 @@
             System.Console.WriteLine("First String: " + mstr1 + "\nSecon String: " + mstr2);
             System.Console.WriteLine("Sum of Strings: " + mstr1 + mstr2);
             System.Console.WriteLine("Difference of Strings: " + (mstr1 - mstr2));
-            System.Console.WriteLine("Is Strings Equal? " + (mstr1 == mstr2));
+            System.Console.WriteLine("Are Strings Equal? " + (mstr1 == mstr2));
         }
     }
 
